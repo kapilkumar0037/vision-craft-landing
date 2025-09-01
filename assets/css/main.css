@@ -1027,15 +1027,33 @@ section,
 
 .about .icon-box {
   background-color: var(--surface-color);
-  padding: 50px 40px;
+  padding: 25px 20px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
-  background-image: url("../img/svg/background/bg-border.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: contain;
   height: 350px;
+}
+
+.about .icon-box.green {
+  background-image: url("../img/svg/background/bg-border-green.svg");
+}
+.about .icon-box.blue {
+  background-image: url("../img/svg/background/bg-border-blue.svg");
+}
+.about .icon-box.purple {
+  background-image: url("../img/svg/background/bg-border-purple.svg");
+}
+.about .icon-box.orange {
+  background-image: url("../img/svg/background/bg-border-orange.svg");
+}
+.about .icon-box.orange:hover i {
+  background-color: #EA580C; 
+}
+.about .icon-box.orange i {
+  color: #EA580C; 
 }
 
 .about .icon-box i {
