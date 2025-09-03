@@ -1055,6 +1055,24 @@ section,
 .about .icon-box.orange i {
   color: #EA580C; 
 }
+.about .icon-box.purple:hover i {
+  background-color: #7E22CE; 
+}
+.about .icon-box.purple i {
+  color: #7E22CE; 
+}
+.about .icon-box.blue:hover i {
+  background-color: #1D4ED8; 
+}
+.about .icon-box.blue i {
+  color: #1D4ED8; 
+}
+.about .icon-box.green:hover i {
+  background-color: #047857; 
+}
+.about .icon-box.green i {
+  color: #047857; 
+}
 
 .about .icon-box i {
   width: 80px;
@@ -1158,13 +1176,13 @@ section,
 }
 
 .stats .stats-item {
-  background-color: var(--surface-color);
+  /* background-color: var(--surface-color); */
   margin-top: -27px;
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1); */
   border-radius: 4px;
   z-index: 0;
 }
@@ -1176,11 +1194,13 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.stats .stats-item p {
+.stats .stats-item h5 {
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
-  font-size: 16px;
+  font-size: 18px;
+  color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  font-weight: 600;
 }
 
 /*--------------------------------------------------------------
