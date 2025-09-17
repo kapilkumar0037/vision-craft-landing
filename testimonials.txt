@@ -1,0 +1,128 @@
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+          "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+          }
+        }
+        </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Mark Thompson</h3>
+                <h4>Engineering Director, TechCorp</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Vision Craft AI transformed our requirements process. What used to take weeks is now done in
+                    hours with better quality and consistency. The AI-generated tasks are remarkably accurate and save
+                    our team valuable time.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sarah Chen</h3>
+                <h4>Product Manager, InnovateSoft</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The AI's ability to understand complex requirements and break them down into clear, actionable
+                    tasks is incredible. The effort estimates are surprisingly accurate, and the JIRA integration works
+                    flawlessly.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>David Kumar</h3>
+                <h4>CTO, FinTech Solutions</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Vision Craft AI has become an essential part of our development workflow. The technical
+                    dependency mapping is spot-on, and the generated user stories follow our best practices
+                    perfectly.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Rachel Morrison</h3>
+                <h4>Scrum Master, AgileWorks</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The level of detail in the generated tasks is impressive. It's like having an experienced
+                    technical analyst working 24/7. Our sprint planning meetings are now much more efficient and
+                    focused.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Michael Zhang</h3>
+                <h4>CEO, StartupHub</h4>
+                <div class="stars"></div>
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>As a startup, we needed to move fast without compromising quality. Vision Craft AI helped us
+                  achieve both. The ROI was immediate - we reduced our planning time by 70% while improving our
+                  development efficiency.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
